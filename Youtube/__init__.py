@@ -42,7 +42,7 @@ __url__ = 'https://github.com/skgsergio/Limnoria-plugins'
 
 from . import config
 from . import plugin
-from imp import reload
+from importlib import reload
 
 reload(config)
 reload(plugin)
